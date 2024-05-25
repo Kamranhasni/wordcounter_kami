@@ -9,6 +9,7 @@ const answers = await inqrirer.prompt([
     }
 ]);
 const words = answers.Sentence.trim().split(" ");
+console.log(words);
 //print the array of words to the console
 console.log(words);
 //print the word count of the sentence to the console
